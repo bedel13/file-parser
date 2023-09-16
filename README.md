@@ -45,6 +45,7 @@ foreach ($transactions as $transaction) {
     // Display transaction data as needed
     echo "<p>{$transaction['date']} - {$transaction['type']} - #{$transaction['number']} - \${$transaction['amount']}</p>";
 }
+```
 
 Contributions
 Contributions, bug reports, and feature requests are welcome! Feel free to open issues or submit pull requests to improve this project.
